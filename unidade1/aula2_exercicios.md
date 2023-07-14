@@ -1,5 +1,5 @@
 # Aula 2
-## Exercício 1 - 0,5 ponto se entregar até 23:59h do dia 14/08/2022
+## Exercício 1 - 0,5 ponto se entregar até 23:59h do dia ??/??/2023
 
 1. Escreva um programa em Java que imprima a mensagem "Olá, mundo!" no console. Implemente uma classe chamada "OlaMundo", no arquivo OlaMundo.java, com um método chamado "main". Dentro do método "main", adicione o código necessário para imprimir a mensagem "Olá, mundo!" usando a função `System.out.println()`.
 
@@ -12,7 +12,7 @@
 5. Crie uma classe chamada "Produto" que tenha os atributos nome, preço e quantidade em estoque. Implemente métodos para adicionar e remover produtos do estoque, além de exibir as informações completas do produto.
 
 6. Crie uma classe chamada "Pessoa" que tenha os atributos nome, idade e altura. Implemente os seguintes métodos:
-   - Substitua o método `exibirInformacoesCompletas()` pelo método `toString()`. O método `toString()` deve retornar uma string contendo as informações completas da pessoa, incluindo nome, idade e altura. Certifique-se de anotar o método com a anotação `@Override`.
+   - Substitua o método `toString()` padrão da classe Object. O método `toString()` deve retornar uma string contendo as informações completas da pessoa, incluindo nome, idade e altura. Certifique-se de anotar o método com a anotação `@Override`.
    - Crie um método chamado `fazerAniversario()` que não recebe nenhum parâmetro e não retorna nenhum valor. Esse método deve incrementar a idade da pessoa em 1 e exibir a mensagem "Feliz aniversário! Agora você tem X anos.", onde X é a nova idade da pessoa.
    - Crie um método chamado `ehMaiorDeIdade()` que não recebe nenhum parâmetro e retorna um valor booleano. Esse método deve verificar se a pessoa é maior de idade (idade maior ou igual a 18) e retornar `true` se for maior de idade ou `false` caso contrário.
 
@@ -26,4 +26,3 @@
 ##### [Git+GitHub by Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
 ##### [Git+GitHub by Gustavo Guanabara](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
 ##### [Git+GitHub+Markdown by Gustavo Guanabara](/git_github_gguanabara)
-##### [Material didático da disciplina](https://drive.google.com/drive/folders/1Cjczcx-O7izOqtwkY0DaNuokbn9cJmOr)

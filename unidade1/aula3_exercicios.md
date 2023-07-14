@@ -1,5 +1,5 @@
-# Aula 2
-## Exercício 1 - 0,5 ponto se entregar até 23:59h do dia 14/08/2022
+# Aula 3
+## Exercício 2 - 0,5 ponto se entregar até 23:59h do dia ??/??/2023
 ### [Vídeo explicando o exercício 1](https://drive.google.com/file/d/11Gh8GFqeaZ875TH1Y-XyXEEIHHueZPd9)
 1. Crie sua conta no GitHub (escolha um nome profissional - delicinhaCremosa123 é um mal exemplo). *Sign-up* em github.com
 2. Baixe o [GitHub Desktop](https://desktop.github.com).
@@ -18,4 +18,3 @@
 ##### [Git+GitHub by Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
 ##### [Git+GitHub by Gustavo Guanabara](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
 ##### [Git+GitHub+Markdown by Gustavo Guanabara](/git_github_gguanabara)
-##### [Material didático da disciplina](https://drive.google.com/drive/folders/1Cjczcx-O7izOqtwkY0DaNuokbn9cJmOr)

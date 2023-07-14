@@ -4,10 +4,10 @@
 
 # Unidade 1
 
-## Aula 1 - Configuração do ambiente e Exercícios de Programação
+## Aula 1 - Configuração do Ambiente e Exercícios de Programação
 Instalação, configuração do ambiente de programação e [exercícios](unidade1/aula2_exercicios.md), feito em sala de aula.
 
-Disciplina no gDrive [aqui](#).
+Disciplina no gDrive [aqui](https://drive.google.com/drive/folders/1Cjczcx-O7izOqtwkY0DaNuokbn9cJmOr)
 
 ## Aula 2 - Git e Classe Pessoa
 Controle de versão, Git, GitHub, GitHub Desktop. Classe Pessoa.java e TestaPessoa.java, getters e setters.
