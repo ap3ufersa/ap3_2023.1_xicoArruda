@@ -2,9 +2,13 @@
 
 ## Exercício 1 - 0,5 ponto se entregar até 23:59h do dia ??/??/2023
 
-0.1. Instale o [JDK](https://adoptium.net/temurin/releases/), versão 17 LTS, marcando [as opções](?).
-0.2. Instale o [VSCode](https://code.visualstudio.com/).
-0.2.1. Instale as extensões portuguese translation, prettier, github theme (dimmed) e java pack.
+### Configuração do ambiente
+
+1. Instale o [JDK](https://adoptium.net/temurin/releases/), versão 17 LTS, marcando [as opções](?).
+2. Instale o [VSCode](https://code.visualstudio.com/).
+3. Instale as extensões **portuguese translation, prettier, github theme (dimmed) e java pack**.
+
+### Exercícios
 
 1. Escreva um programa em Java que imprima a mensagem "Olá, mundo!" no console. Implemente uma classe chamada "OlaMundo", no arquivo OlaMundo.java, com um método chamado "main". Dentro do método "main", adicione o código necessário para imprimir a mensagem "Olá, mundo!" usando a função `System.out.println()`.
 
