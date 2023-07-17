@@ -6,7 +6,7 @@
 
 1. Instale o [JDK](https://adoptium.net/temurin/releases/), versão 17 LTS, marcando [as opções](?).
 2. Instale o [VSCode](https://code.visualstudio.com/).
-3. Instale as extensões **portuguese translation, prettier, github theme (dimmed) e java pack**.
+3. Instale as extensões _portuguese translation, prettier, github theme (dimmed) e java pack_.
 
 ### Exercícios
 
