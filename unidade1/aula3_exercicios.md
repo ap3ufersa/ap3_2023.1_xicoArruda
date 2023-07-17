@@ -2,6 +2,8 @@
 
 ## Exercício 2 - 0,5 ponto se entregar até 23:59h do dia ??/??/2023
 
+### Configuração do ambiente
+
 1. Crie sua conta no GitHub (escolha um nome profissional - delicinhaCremosa123 é um mal exemplo). _Sign-up_ em github.com
 2. Baixe o [GitHub Desktop](https://desktop.github.com).
 3. Configure o GitHub Desktop com a conta criada.
@@ -11,10 +13,32 @@
 7. Faça _commit_ das alterações no repositório local.
 8. Faça _push_ do repositório local para o GitHub.
 9. Adicione a conta **ap3ufersa** como colaborador do repositório.
-10. Baixe e instale as [ferramentas vistas na aula](https://drive.google.com/open?id=19OsM2zKX1XLg9uyudSVFkKiOgyO29SKu) do dia 17/07/2023.
-11. Crie as classes Pessoa.java e TestaPessoa.java. Lembre de arrumar o _fully qualified name_ do pacote no seu projeto.
-12. Coloque o seu código secreto no site como um comentário (use o //...) no início da classe que tem o método _main_. O código secreto foi enviado para seu e-Mail institucional.
-13. Faça o _commit_ do projeto localmente e sincronize-o (_push_) com o seu repositório remoto no GitHub.
+10. Coloque a pasta do projeto Java visto na aula 2 dentro da pasta do repositório local.
+11. Faça o _commit_ do projeto localmente e sincronize-o (_push_) com o seu repositório remoto no GitHub.
+
+### Exercícios
+
+1. Crie uma classe chamada "Pessoa" que tenha os atributos nome, idade e altura. Implemente os seguintes métodos:
+
+   - Substitua o método `toString()` padrão da classe Object. O método `toString()` deve retornar uma string contendo as informações completas da pessoa, incluindo nome, idade e altura. Certifique-se de anotar o método com a anotação `@Override`.
+   - Crie um método chamado `fazerAniversario()` que não recebe nenhum parâmetro e não retorna nenhum valor. Esse método deve incrementar a idade da pessoa em 1 e exibir a mensagem "Feliz aniversário! Agora você tem X anos.", onde X é a nova idade da pessoa.
+   - Crie um método chamado `ehMaiorDeIdade()` que não recebe nenhum parâmetro e retorna um valor booleano. Esse método deve verificar se a pessoa é maior de idade (idade maior ou igual a 18) e retornar `true` se for maior de idade ou `false` caso contrário.
+
+2. Crie uma classe chamada "Produto" que tenha os atributos nome, preço e quantidade em estoque. Implemente métodos para adicionar e remover produtos do estoque, além de exibir as informações completas do produto. Utilize uma coleção do tipo "ArrayList" para armazenar os produtos em estoque.
+
+3. Crie uma classe chamada "Funcionario" que tenha os atributos nome, cargo e salário. Implemente um método para exibir as informações completas do funcionário. Utilize uma coleção do tipo "HashMap" para armazenar os funcionários, utilizando o nome como chave.
+
+4. Crie uma classe chamada "Banco" que tenha o atributo nome e uma lista de contas bancárias. Implemente métodos para adicionar e remover contas do banco, além de exibir as informações completas de todas as contas. Utilize uma coleção do tipo "LinkedList" para armazenar as contas bancárias.
+
+5. Em todas as classes coloque o seu código secreto em um comentário. Ele foi enviado para seu e-mail institucional.
+
+## Ajuda e material de apoio
+
+##### [Git+GitHub by Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
+
+##### [Git+GitHub by Gustavo Guanabara](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
+
+##### [Git+GitHub+Markdown by Gustavo Guanabara](/git_github_gguanabara)
 
 ## Ajuda e material de apoio
 

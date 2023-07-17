@@ -12,6 +12,14 @@ Instalação, configuração do ambiente de programação e [exercícios](unidad
 
 ## Aula 2 - Git, GitHub e Classe Pessoa
 
-Controle de versão, Git, GitHub, GitHub Desktop. Classe Pessoa.java e TestaPessoa.java, getters e setters.
+Controle de versão, Git, GitHub, GitHub Desktop. Classe Pessoa, Coleções e [exercícios](unidade1/aula3_exercicios.md).
 
-Exercício [aqui](unidade1/aula3_exercicios.md).
+## Ajuda e material de apoio
+
+##### [Git+GitHub by Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
+
+##### [Git+GitHub by Gustavo Guanabara](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
+
+##### [Git+GitHub+Markdown by Gustavo Guanabara](/git_github_gguanabara)
+
+##### [POO by Gustavo Guanabara](https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)
