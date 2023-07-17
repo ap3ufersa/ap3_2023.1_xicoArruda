@@ -10,7 +10,7 @@
 
 Instalação, configuração do ambiente de programação e [exercícios](unidade1/aula2_exercicios.md), feito em sala de aula.
 
-## Aula 2 - Git, GitHub e Classe Pessoa
+## Aula 2 - Git, GitHub e Exercícios
 
 Controle de versão, Git, GitHub, GitHub Desktop. Classe Pessoa, Coleções e [exercícios](unidade1/aula3_exercicios.md).
 
