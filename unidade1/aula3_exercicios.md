@@ -1,6 +1,6 @@
 # Aula 3
 
-## Exercício 2 - 0,5 ponto se entregar até 23:59h do dia ??/??/2023
+## Exercício - 0,5 ponto se entregar até 23:59h do dia ??/??/2023
 
 ### Configuração do ambiente
 
@@ -8,13 +8,12 @@
 2. Baixe o [GitHub Desktop](https://desktop.github.com).
 3. Configure o GitHub Desktop com a conta criada.
 4. Crie o repositório no formato **ap3_2023.1_primeironomeSegundonome** (ex.: ap3_2022.1_xicoArruda). Decida se ele ficará público ou privado.
-5. Use um editor e altere o README.md com informações relevantes (dicas [aqui](https://gist.github.com/lohhans/f8da0b147550df3f96914d3797e9fb89)). Pode usar o [Notepad++](https://notepad-plus-plus.org/downloads/), [VSCode](https://code.visualstudio.com/) ou outro editor de preferência.
-6. Coloque o projeto da unidade1 no repositório local
+5. Altere o README.md com informações relevantes sobre o repositório (dicas [aqui](https://gist.github.com/lohhans/f8da0b147550df3f96914d3797e9fb89)).
+6. Coloque a pasta do projeto Java feito na aula 2 dentro da pasta do repositório local.
 7. Faça _commit_ das alterações no repositório local.
 8. Faça _push_ do repositório local para o GitHub.
 9. Adicione a conta **ap3ufersa** como colaborador do repositório.
-10. Coloque a pasta do projeto Java visto na aula 2 dentro da pasta do repositório local.
-11. Faça o _commit_ do projeto localmente e sincronize-o (_push_) com o seu repositório remoto no GitHub.
+10. Faça os exercícios a seguir. Após concluir cada questão, faça _commit_ do projeto localmente e sincronize-o (_push_) com o seu repositório remoto no GitHub.
 
 ### Exercícios
 
