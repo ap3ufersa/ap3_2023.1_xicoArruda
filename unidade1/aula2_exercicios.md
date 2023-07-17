@@ -4,7 +4,7 @@
 
 ### Configuração do ambiente
 
-1. Instale o [JDK](https://adoptium.net/temurin/releases/), versão 17 LTS, marcando [as opções](https://drive.google.com/open?id=1BMqLvV0vZPz728qvQq2JVdf9McBGN9PY) e [liberando o firewall](https://drive.google.com/open?id=1BTl2hp2ZlEhAVqhpDfMOC0SY4ztLtMzs).
+1. Instale o [JDK](https://adoptium.net/temurin/releases/), arquivo .msi versão x64 17 LTS, marcando [as opções](https://drive.google.com/open?id=1BMqLvV0vZPz728qvQq2JVdf9McBGN9PY) e [liberando o firewall](https://drive.google.com/open?id=1BTl2hp2ZlEhAVqhpDfMOC0SY4ztLtMzs).
 2. Instale o [VSCode](https://code.visualstudio.com/).
 3. Instale as extensões _portuguese translation, prettier, github theme (dimmed) e java pack_.
 
