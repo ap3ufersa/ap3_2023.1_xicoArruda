@@ -9,4 +9,8 @@ package br.com.xico.aula1.aluno;
 
 public class Aluno {
 
+    String nome;
+    int matricula;
+    double nota1;
+
 }
