@@ -30,21 +30,3 @@
 4. Crie uma classe chamada "Banco" que tenha o atributo nome e uma lista de contas bancárias. Utilize a ContaBancaria criada na aula anterior. Implemente métodos para adicionar e remover contas do banco, além de exibir as informações completas de todas as contas. Utilize uma coleção do tipo "LinkedList" para armazenar as contas bancárias de 30 pessoas, na classe TestaBanco.
 
 5. Em todas as classes coloque o seu código secreto em um comentário. Ele foi enviado para seu e-mail institucional. Também não esqueça de ajustar o _fully qualified name_.
-
-## Ajuda e material de apoio
-
-##### [Git+GitHub by Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
-
-##### [Git+GitHub by Gustavo Guanabara](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-
-##### [Git+GitHub+Markdown by Gustavo Guanabara](/git_github_gguanabara)
-
-## Ajuda e material de apoio
-
-##### [Git+GitHub by Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
-
-##### [Git+GitHub by Gustavo Guanabara](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-
-##### [Git+GitHub+Markdown by Gustavo Guanabara](/git_github_gguanabara)
-
-##### [POO by Gustavo Guanabara](https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)
