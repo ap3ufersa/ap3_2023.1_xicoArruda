@@ -18,7 +18,7 @@ Controle de versão, Git, GitHub, GitHub Desktop. Classe Pessoa, Coleções e [e
 
 ### Java e POO
 
-##### [Java Virado no Jiraya](https://www.youtube.com/watch?v=UMhskLXJuq4)
+##### [Java Virado no Jiraya](https://www.youtube.com/playlist?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW)
 
 ##### [Por Loiane Groner](https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r)
 
