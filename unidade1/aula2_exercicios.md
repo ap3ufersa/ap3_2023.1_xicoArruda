@@ -19,13 +19,3 @@
 3. Crie uma classe chamada "Carro" que tenha os atributos marca, modelo e ano. Sobrescreva o método `toString()` para exibir as informações completas do carro. Ao exibir as informações do carro, diga se ele é ou não semi-novo (se tem mais de três anos de fabricação, não é semi-novo). Implemente getters e setters. Crie a classe TestaCarro, com 2 carros.
 
 4. Crie uma classe chamada "ContaBancaria" que tenha os atributos número da conta, nome do titular e saldo. Implemente métodos para depositar, sacar e verificar o saldo da conta. Implemente getters, setters e toString. Crie a classe TestaContaBancaria, com 3 contas.
-
-## Ajuda e material de apoio
-
-##### [Git+GitHub by Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
-
-##### [Git+GitHub by Gustavo Guanabara](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-
-##### [Git+GitHub+Markdown by Gustavo Guanabara](/git_github_gguanabara)
-
-##### [POO by Gustavo Guanabara](https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)
