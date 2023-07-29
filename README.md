@@ -26,10 +26,10 @@ Controle de versão, Git, GitHub, GitHub Desktop. Classe Pessoa, Coleções e [e
 
 ### Git e GithHub
 
-##### [By Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
+##### [Por Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
 
-##### [By Gustavo Guanabara](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
+##### [Por Gustavo Guanabara](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
 
-##### [Markdown by Gustavo Guanabara](/git_github_gguanabara)
+##### [Markdown por Gustavo Guanabara](/git_github_gguanabara)
 
 
