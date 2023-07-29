@@ -1,3 +1,5 @@
+//Codigo secreto = 9999
+
 //Crie uma classe chamada "Aluno" que tenha 
 //os atributos nome, matrícula e nota. 
 //Implemente um método para calcular se o aluno
