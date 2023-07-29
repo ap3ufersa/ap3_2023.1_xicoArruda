@@ -16,10 +16,20 @@ Controle de versão, Git, GitHub, GitHub Desktop. Classe Pessoa, Coleções e [e
 
 ## Ajuda e material de apoio
 
-##### [Git+GitHub by Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
+### Java e POO
 
-##### [Git+GitHub by Gustavo Guanabara](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
+##### [Java Virado no Jiraya](https://www.youtube.com/watch?v=UMhskLXJuq4)
 
-##### [Git+GitHub+Markdown by Gustavo Guanabara](/git_github_gguanabara)
+##### [Por Loiane Groner](https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r)
 
-##### [POO by Gustavo Guanabara](https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)
+##### [Por Gustavo Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)
+
+### Git e GithHub
+
+##### [By Loiane Groner](https://www.youtube.com/watch?v=UMhskLXJuq4)
+
+##### [By Gustavo Guanabara](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
+
+##### [Markdown by Gustavo Guanabara](/git_github_gguanabara)
+
+
