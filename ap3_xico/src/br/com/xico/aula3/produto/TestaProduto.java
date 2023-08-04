@@ -6,15 +6,8 @@ import java.util.ArrayList;
 public class TestaProduto {
 
     public static void main(String[] args) {
-        ArrayList listaDeProdutos = new ArrayList();
+        Produto pipoca = new Produto("Bokus", 1.5, 4);
+        System.out.println(pipoca);
 
-        int i = 0;
-        while (true) {
-
-            listaDeProdutos.add(i, new Produto("Produto" + i, 4.0, 9));
-            i++;
-        }
-
-       
     }
 }
