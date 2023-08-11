@@ -4,37 +4,26 @@
 
 ### Exercícios
 
-1. 0,5 Exercício 1:
-Crie uma classe chamada Pessoa com um atributo nome (private). Forneça métodos públicos getNome e setNome para acessar e modificar o atributo. Altere o toString para exibir o nome completo em letras maiúsculas.
+1. (0,5) Crie uma classe chamada Pessoa com um atributo nome (private). Forneça métodos públicos getNome e setNome para acessar e modificar o atributo. Altere o toString para exibir o nome completo em letras maiúsculas.
 
-2. 0,5 Exercício 2: Acesso Privado em Construtores
-Crie uma classe chamada Produto com um atributo descricao de visibilidade private. Crie um construtor público para a classe Produto que aceite um parâmetro descricao para inicializar o atributo. Forneça um método público chamado exibirDescricao para exibir a descrição do produto.
+2. (0,5) Crie uma classe chamada Produto com um atributo descricao de visibilidade private. Crie um construtor público para a classe Produto que aceite um parâmetro descricao para inicializar o atributo. Forneça um método público chamado exibirDescricao para exibir a descrição do produto.
 
-3. 1,0 Exercício 3: 
-Crie uma classe BibliotecaPequena com atributos nome (private) e livros[6] (protected). A classe Biblioteca deve conter um método listarLivros de visibilidade public que exibe os nomes dos livros cadastrados. Faça uma classe TestaBibliotecaPequena com o cadastro de 6 livros. Armazene o nome dos livros no array e use a classe Scanner para ler o nome de cada livro.
+3. (1,0) Crie uma classe BibliotecaPequena com atributos nome (private) e livros[6] (protected). A classe Biblioteca deve conter um método listarLivros de visibilidade public que exibe os nomes dos livros cadastrados. Faça uma classe TestaBibliotecaPequena com o cadastro de 6 livros. Armazene o nome dos livros no array e use a classe Scanner para ler o nome de cada livro.
 
-4. 2,0 Exercício 4: 
-Exercício: Cadastro de Carros
+4. (2,0) Exercício de cadastro de carros:
+    - Crie uma classe chamada Carro com os seguintes atributos privados:
+    marca (String)
+    modelo (String)
+    ano (int)
 
-    Crie uma classe chamada Carro com os seguintes atributos privados:
-        marca (String)
-        modelo (String)
-        ano (int)
+    - Crie um construtor com os três atributos, crie os métodos get e set para cada atributo.
+    
+    - Crie a Classe TestaCarro. Utilize a classe Scanner para receber entradas do usuário e criar objetos Carro com base nas informações fornecidas. Faça o cadastro de 4 carros, armazenando em um ArrayList<Carro>.
 
-    Crie um construtor público na classe Carro que aceite os três valores como parâmetros e inicialize os atributos.
-
-    Crie métodos públicos getMarca, getModelo e getAno para recuperar os valores dos atributos.
-
-    Crie uma classe chamada CadastroCarros que conterá o método main.
-
-    Na classe CadastroCarros, utilize a classe Scanner para receber entradas do usuário e criar objetos Carro com base nas informações fornecidas. Use um loop para permitir o cadastro de 4 carros.
-
-    A cada iteração do loop, peça ao usuário para digitar a marca, modelo e ano do carro. Crie um novo objeto Carro com essas informações e adicione-o a um ArrayList de carros cadastrados.
-
-    Depois que o loop for concluído, percorra o ArrayList de carros cadastrados e exiba suas informações usando os métodos get da classe Carro.
+    - Ao final, exiba os carros cadastrados.
 
 
-5. 3,0 - Exercício: Sistema Avançado de Cadastro de Times e Jogadores
+5. (3,0) Exercício de cadastro de times de jogadores.
 
     Crie uma classe chamada Jogador com os seguintes atributos privados:
         nome (String)
@@ -45,7 +34,7 @@ Exercício: Cadastro de Carros
 
     Crie uma classe chamada Time com os atributos privados:
         nomeTime (String)
-        jogadores (um vetor de objetos Jogador)
+        jogadores (um array de objetos Jogador)
 
     Crie um construtor público na classe Time que aceite o nome do time como parâmetro e inicialize o atributo nomeTime. Inicialize também o vetor de jogadores com um tamanho de 11.
 
@@ -60,6 +49,5 @@ Exercício: Cadastro de Carros
     Use um loop para permitir que o usuário cadastre até 11 jogadores para o time. Utilize o método cadastrarJogador para realizar o cadastro de cada jogador.
 
     Após cadastrar todos os jogadores, utilize o método listarJogadores para exibir as informações de todos os jogadores do time.
-
 
 
