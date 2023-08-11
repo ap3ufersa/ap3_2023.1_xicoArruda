@@ -2,6 +2,7 @@ package br.com.xico.aula4;
 
 import java.util.LinkedList;
 
+//professor, oensei em fazer 
 public class Banco {
 
     String nomeDoBanco = "X&A Bank of Angicos";
