@@ -20,7 +20,7 @@
     - Ao final, exiba os carros cadastrados.
 
 
-5. (3,0) Exercício de cadastro de times de jogadores.
+5. (3,0) Exercício de cadastro de times de jogadores:
     - Crie uma classe chamada Jogador com os seguintes atributos privados: codigo, nome, idade, altura.
 
     - Crie um construtor público na classe Jogador que aceite três valores como parâmetros e inicialize os atributos. O código deve ser randômico até 99999 e deve ser gerenciado pela classe.
