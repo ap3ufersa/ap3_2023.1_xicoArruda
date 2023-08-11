@@ -2,7 +2,7 @@
 
 ## Exercício - 1,0 ponto se o commit no github for até 23:59h do dia 30/07/2023
 
-## Exercício - 0,5 ponto se o commit no github for até 23:59h do dia ??/08/2023
+## Exercício - 0,5 ponto se o commit no github for até 23:59h do dia 20/08/2023
 
 ### Configuração do ambiente
 
