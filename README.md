@@ -6,13 +6,17 @@
 
 # Unidade 1
 
-## Aula 1 - Configuração do Ambiente e Exercícios de Programação
+## Exercício 1 - Configuração do Ambiente e Exercícios de Programação
 
-Instalação, configuração do ambiente de programação e [exercícios](unidade1/aula2_exercicios.md), feito em sala de aula.
+Instalação, configuração do ambiente de programação e [exercícios](unidade1/exercicio1.md), feito em sala de aula.
 
-## Aula 2 - Git, GitHub e Exercícios
+## Exercício 2 - Git, GitHub e Exercícios
 
-Controle de versão, Git, GitHub, GitHub Desktop. Classe Pessoa, Coleções e [exercícios](unidade1/aula3_exercicios.md).
+Controle de versão, Git, GitHub, GitHub Desktop. Classe Pessoa, Coleções e [exercícios](unidade1/exercicio2.md).
+
+## Exercício 3 - Visibilidade
+
+Visibilidade e Scanner com [exercícios](unidade1/exercicio3.md).
 
 ## Ajuda e material de apoio
 

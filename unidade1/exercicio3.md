@@ -1,6 +1,6 @@
-# Aula 4
+# Exercício 3
 
-## Exercício - 4,0 pontos se entregar até 23:59h do dia ??/08/2023
+## Exercício - maxímo 4,0 pontos se entregar até 23:59h do dia ??/08/2023
 
 ### Exercícios
 
