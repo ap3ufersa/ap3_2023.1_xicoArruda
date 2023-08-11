@@ -14,7 +14,7 @@ Instalação, configuração do ambiente de programação e [exercícios](unidad
 
 Controle de versão, Git, GitHub, GitHub Desktop. Classe Pessoa, Coleções e [exercícios](unidade1/exercicio2.md).
 
-## Exercício 3 - Visibilidade
+## Exercício 3 - Visibilidade de atribuos
 
 Visibilidade e Scanner com [exercícios](unidade1/exercicio3.md).
 
