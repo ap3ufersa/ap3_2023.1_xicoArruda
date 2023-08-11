@@ -1,6 +1,7 @@
 # Aula 3
 
 ## Exercício - 1,0 ponto se entregar até 23:59h do dia 03/08/2023
+## Exercício - 0,5 ponto se entregar até 23:59h do dia ??/08/2023
 
 ### Configuração do ambiente
 
