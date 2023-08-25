@@ -25,7 +25,7 @@ O que deve ser feito:
 4. Crie um método na classe Viagem para realizar uma reserva, marcando o assento como não disponível.
 5. Implemente um método na classe Reserva para exibir as informações da reserva, incluindo os dados do passageiro, detalhes da viagem e número do assento.
 
-Gabarito [aqui](gabaritoExercicioOnibus),
+Gabarito [aqui](ap3_2023.1_xicoArruda\ap3_xico\src\br\com\xico\aula6),
 
 ### Exercícios
 
