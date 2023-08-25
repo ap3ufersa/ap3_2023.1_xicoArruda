@@ -10,7 +10,7 @@ Imagine que você está desenvolvendo um sistema para uma empresa de transporte 
    - Atributos: nome, documento e dataNascimento
 
 2. Classe Assento:
-   - Atributos: numeroAssento, classe (enum de janela ou corredor) e disponivel.
+   - Atributos: numeroAssento, tipo (enum de janela ou corredor) e disponivel.
 
 3. Classe Viagem:
    - Atributos: numeroViagem, origem, destino, dataHoraPartida, dataHoraChegada e uma lista de Assento com no máximo 40 vagas disponíveis.
@@ -24,8 +24,9 @@ O que deve ser feito:
 3. Implemente um método na classe Viagem que permita listar os assentos disponíveis para reserva.
 4. Crie um método na classe Viagem para realizar uma reserva, marcando o assento como não disponível.
 5. Implemente um método na classe Reserva para exibir as informações da reserva, incluindo os dados do passageiro, detalhes da viagem e número do assento.
+6. Considere 20 assentos para janela e 20 assentos para corredor. As reservas devem considerar 
 
-Gabarito [aqui](tree/main/ap3_xico/src/br/com/xico/aula6/gabaritoExercicioOnibus),
+Gabarito [aqui](https://github.com/ap3ufersa/ap3_2023.1_xicoArruda/tree/main/ap3_xico/src/br/com/xico/aula6/gabaritoExercicioOnibus).
 
 ### Exercícios
 
