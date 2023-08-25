@@ -20,7 +20,7 @@ Visibilidade e Scanner com [exercícios](unidade1/exercicio3.md).
 
 # Unidade 2
 
-## Exercício 1 - Encapsulamento e composição
+## Exercício 1 - Composição e Encapsulamento
 
 Encapsulamento de comportamentos e composição com [exercícios](unidade2/exercicio1.md), com exemplo feito em sala de aula.
 

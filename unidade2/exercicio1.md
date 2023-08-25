@@ -2,6 +2,31 @@
 
 ## Exercício - máximo 4,5 pontos se o commit no github for até 23:59h do dia 03/09/2023
 
+### Exercício em Sala: Sistema de Reservas de Viagens de Ônibus
+
+Imagine que você está desenvolvendo um sistema para uma empresa de transporte rodoviário que deseja gerenciar as reservas de viagens de ônibus para diferentes destinos. O sistema deve permitir que os usuários reservem assentos em viagens específicas. O sistema deve conter, com os respectivos construtores, toString e métodos acessores:
+
+1. Classe Passageiro:
+   - Atributos: nome, documento e dataNascimento
+
+2. Classe Viagem:
+   - Atributos: numeroViagem, origem, destino, dataHoraPartida, dataHoraChegada e um array de Assento (classe que criaremos a seguir)
+
+3. Classe Assento:
+   - Atributos: numeroAssento, classe (por exemplo, "executiva" ou "econômica") e disponivel (indicando se o assento está disponível)
+
+4. Classe Reserva:
+   - Atributos: passageiro, viagem e assento
+
+O que deve ser feito:
+1. Crie as classes Passageiro, Viagem, Assento e Reserva com os atributos e métodos mencionados.
+2. Implemente a lógica para que um Assento possa ser marcado como disponível ou não disponível.
+3. Implemente um método na classe Viagem que permita listar os assentos disponíveis para reserva.
+4. Crie um método na classe Viagem para realizar uma reserva, marcando o assento como não disponível.
+5. Implemente um método na classe Reserva para exibir as informações da reserva, incluindo os dados do passageiro, detalhes da viagem e número do assento.
+
+Gabarito [aqui](gabaritoExercicioOnibus),
+
 ### Exercícios
 
 1. (1,0) Crie uma classe Disciplina com os atributos nomeDisciplina e cargaHoraria. Encapsule corretamente os atributos. A classe Curso deve conter um nome e uma lista de Disciplina como parte de sua composição. No método toString() exiba todas as informações do Curso e das Disciplinas. Implemente corretamente a visibilidade de cada método e cada atributo. Opcionalmente, trate como "IllegalArgumentException" se a carga horária for menor que 0.
