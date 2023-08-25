@@ -9,23 +9,23 @@ Imagine que você está desenvolvendo um sistema para uma empresa de transporte 
 1. Classe Passageiro:
    - Atributos: nome, documento e dataNascimento
 
-2. Classe Viagem:
-   - Atributos: numeroViagem, origem, destino, dataHoraPartida, dataHoraChegada e um array de Assento (classe que criaremos a seguir)
+2. Classe Assento:
+   - Atributos: numeroAssento, classe (enum de janela ou corredor) e disponivel.
 
-3. Classe Assento:
-   - Atributos: numeroAssento, classe (por exemplo, "executiva" ou "econômica") e disponivel (indicando se o assento está disponível)
+3. Classe Viagem:
+   - Atributos: numeroViagem, origem, destino, dataHoraPartida, dataHoraChegada e uma lista de Assento com no máximo 40 vagas disponíveis.
 
 4. Classe Reserva:
-   - Atributos: passageiro, viagem e assento
+   - Atributos: Passageiro, Viagem e Assento
 
 O que deve ser feito:
-1. Crie as classes Passageiro, Viagem, Assento e Reserva com os atributos e métodos mencionados.
+1. Crie as classes Passageiro, Assento, Viagem e Reserva com os atributos e métodos mencionados.
 2. Implemente a lógica para que um Assento possa ser marcado como disponível ou não disponível.
 3. Implemente um método na classe Viagem que permita listar os assentos disponíveis para reserva.
 4. Crie um método na classe Viagem para realizar uma reserva, marcando o assento como não disponível.
 5. Implemente um método na classe Reserva para exibir as informações da reserva, incluindo os dados do passageiro, detalhes da viagem e número do assento.
 
-Gabarito [aqui](ap3_2023.1_xicoArruda\ap3_xico\src\br\com\xico\aula6),
+Gabarito [aqui](tree/main/ap3_xico/src/br/com/xico/aula6/gabaritoExercicioOnibus),
 
 ### Exercícios
 
