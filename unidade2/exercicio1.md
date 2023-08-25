@@ -1,4 +1,4 @@
-# Exercício 3
+# Exercício 1
 
 ## Exercício - máximo 4,5 pontos se o commit no github for até 23:59h do dia 03/09/2023
 

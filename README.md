@@ -18,6 +18,12 @@ Controle de versão, Git, GitHub, GitHub Desktop. Classe Pessoa, Coleções e [e
 
 Visibilidade e Scanner com [exercícios](unidade1/exercicio3.md).
 
+# Unidade 2
+
+## Exercício 1 - Encapsulamento e composição
+
+Encapsulamento de comportamentos e composição com [exercícios](unidade2/exercicio1.md), com exemplo feito em sala de aula.
+
 ## Ajuda e material de apoio
 
 ### Java e POO
