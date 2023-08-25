@@ -8,7 +8,7 @@ public class TestaBusao {
     // Criando um passageiro
     Passageiro xico = new Passageiro("Xico", "123456789", LocalDate.of(2000, 8, 25));
 
-    // Criando assentos
+    // Criando o assento
     Assento assentoXico = new Assento(30, TipoAssento.JANELA);
 
     // Criando uma viagem
