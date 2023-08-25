@@ -12,10 +12,6 @@ public class Assento {
     this.disponivel = true;
   }
 
-  public void marcarIndisponivel() {
-    this.disponivel = false;
-  }
-
   public int getNumeroAssento() {
     return numeroAssento;
   }
@@ -42,6 +38,6 @@ public class Assento {
 
   @Override
   public String toString() {
-    return "Assento [numeroAssento=" + numeroAssento + ", tipo=" + tipo + ", disponivel=" + disponivel + "]";
+    return "Assento [num=" + numeroAssento + ", tipo=" + tipo + ", disponivel=" + disponivel + "]";
   }
 }

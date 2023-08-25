@@ -12,8 +12,7 @@ public class TestaBusao {
         LocalDate.of(2000, 8, 25));
 
     // Criando assentos
-    Assento assentoJanela = new Assento(1, TipoAssento.JANELA);
-    Assento assentoCorredor = new Assento(21, TipoAssento.CORREDOR);
+    Assento assentoXico = new Assento(1, TipoAssento.JANELA);
 
     // Criando uma viagem
     Viagem natalAngicos = new Viagem(
@@ -23,19 +22,19 @@ public class TestaBusao {
         "2023-08-25 08:00",
         "2023-08-25 12:00");
 
-    // Listando assentos disponíveis antes da reserva
-    System.out.println("Assentos disponíveis antes da reserva:");
-    viagem.listarAssentosDisponiveis().forEach(System.out::println);
+    // Listando todos os assentos antes da reserva
+    System.out.println("\nTodos os assentos antes da reserva:");
+    natalAngicos.getTodosOsAssentos().forEach(System.out::println);
 
     // Realizando uma reserva
-    Reserva reserva = new Reserva(xico, natalAngicos, assentoJanela);
+    Reserva reserva = new Reserva(xico, natalAngicos, assentoXico);
 
-    // Exibindo informações da reserva
-    System.out.println("\nInformações da reserva:");
-    System.out.println(reserva);
+    // Listando todos os assentos após a reserva
+    System.out.println("\nTodos os assentos depois da reserva:");
+    natalAngicos.getTodosOsAssentos().forEach(System.out::println);
 
     // Listando assentos disponíveis após a reserva
     System.out.println("\nAssentos disponíveis após a reserva:");
-    viagem.listarAssentosDisponiveis().forEach(System.out::println);
+    natalAngicos.listarAssentosDisponiveis().forEach(System.out::println);
   }
 }

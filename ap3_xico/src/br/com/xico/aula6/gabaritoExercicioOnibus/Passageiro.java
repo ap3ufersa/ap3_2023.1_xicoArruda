@@ -13,4 +13,9 @@ public class Passageiro {
     this.documento = documento;
     this.dataNascimento = dataNascimento;
   }
+
+  @Override
+  public String toString() {
+    return "Passageiro [nome=" + nome + ", documento=" + documento + ", dataNascimento=" + dataNascimento + "]";
+  }
 }
