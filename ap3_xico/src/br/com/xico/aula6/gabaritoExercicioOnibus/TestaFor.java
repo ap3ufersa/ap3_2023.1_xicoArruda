@@ -1,3 +1,5 @@
+package br.com.xico.aula5.gabaritoExercicioOnibus;
+
 import java.util.List;
 
 public class TestaFor {
