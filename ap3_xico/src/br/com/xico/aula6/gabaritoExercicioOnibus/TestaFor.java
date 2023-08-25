@@ -1,4 +1,4 @@
-package br.com.xico.aula5.gabaritoExercicioOnibus;
+package br.com.xico.aula5;
 
 import java.util.List;
 
