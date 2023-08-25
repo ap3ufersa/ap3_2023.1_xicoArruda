@@ -1,4 +1,4 @@
-package br.com.xico.aula5.gabaritoExercicioOnibus;
+package br.com.xico.aula6.gabaritoExercicioOnibus;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,12 +13,11 @@ public class Viagem {
   private List<Assento> assentos;
 
   public Viagem(
-    int numeroViagem,
-    String origem,
-    String destino,
-    String dataHoraPartida,
-    String dataHoraChegada
-  ) {
+      int numeroViagem,
+      String origem,
+      String destino,
+      String dataHoraPartida,
+      String dataHoraChegada) {
     this.numeroViagem = numeroViagem;
     this.origem = origem;
     this.destino = destino;

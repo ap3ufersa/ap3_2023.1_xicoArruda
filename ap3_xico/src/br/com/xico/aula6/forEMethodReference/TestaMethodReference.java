@@ -1,4 +1,4 @@
-package br.com.xico.aula5;
+package br.com.xico.aula6.forEMethodReference;
 
 import java.util.List;
 
