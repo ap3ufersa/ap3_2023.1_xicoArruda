@@ -100,6 +100,6 @@ public class Viagem {
   @Override
   public String toString() {
     return "Viagem [numeroViagem=" + numeroViagem + ", origem=" + origem + ", destino=" + destino + ", dataHoraPartida="
-        + dataHoraPartida + ", dataHoraChegada=" + dataHoraChegada + ", assentos=" + assentos + "]";
+        + dataHoraPartida + ", dataHoraChegada=" + dataHoraChegada + ", assentos=" + todosOsAssentos + "]";
   }
 }
