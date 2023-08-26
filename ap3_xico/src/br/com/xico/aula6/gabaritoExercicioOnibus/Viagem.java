@@ -42,13 +42,15 @@ public class Viagem {
   }
 
   public void realizarReserva(Assento assentoReservado) {
-    for (Assento umAssento : todosOsAssentos)
-      if (umAssento.getNumeroAssento() == assentoReservado.getNumeroAssento()) {
-        umAssento.setDisponivel(false);
-        break;
-      }
-  }
-
+        for (Assento umAssento : todosOsAssentos) {
+            if (umAssento.getNumeroAssento() == assentoReservado.getNumeroAssento()) {
+                if (umAssento.isDisponivel()) {
+                    umAssento.setDisponivel(false);
+                    break;
+                }
+            }
+        }
+    }
   public int getNumeroViagem() {
     return numeroViagem;
   }
