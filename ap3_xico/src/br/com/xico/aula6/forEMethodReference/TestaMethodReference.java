@@ -11,3 +11,7 @@ public class TestaMethodReference {
     numeros.forEach(System.out::println);
   }
 }
+
+
+
+

@@ -5,11 +5,12 @@ import java.util.List;
 public class TestaFor {
 
   public static void main(String[] args) {
-    List<Integer> numeros = List.of(1, 2, 3, 4, 5);
+    List<Integer> numeros = List.of(17, 62, 53, 4, 5);
 
     System.out.println("Usando loop for:");
-    for (Integer numero : numeros) {
-      System.out.println(numero);
-    }
+
+    for (int i = 0; i < numeros.size(); i++)
+      System.out.println(numeros.get(i));
+
   }
 }
