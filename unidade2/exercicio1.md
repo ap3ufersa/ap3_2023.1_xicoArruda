@@ -1,6 +1,6 @@
 # Exercício 1
 
-## Exercício - máximo 4,5 pontos se o commit no github for até 23:59h do dia 03/09/2023
+## Exercício - máximo 4,5 pontos se o commit no github for até 23:59h do dia 04/09/2023
 
 ### Exercício em Sala: Sistema de Reservas de Viagens de Ônibus
 
@@ -24,7 +24,7 @@ O que deve ser feito:
 3. Implemente um método na classe Viagem que permita listar os assentos disponíveis para reserva.
 4. Crie um método na classe Viagem para realizar uma reserva, marcando o assento como não disponível.
 5. Implemente um método na classe Reserva para exibir as informações da reserva, incluindo os dados do passageiro, detalhes da viagem e número do assento.
-6. Considere 20 assentos para janela e 20 assentos para corredor. As reservas devem considerar 
+6. Considere 20 assentos para janela e 20 assentos para corredor.
 
 Gabarito [aqui](https://github.com/ap3ufersa/ap3_2023.1_xicoArruda/tree/main/ap3_xico/src/br/com/xico/aula6/gabaritoExercicioOnibus).
 
