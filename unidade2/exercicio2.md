@@ -6,7 +6,7 @@
 
 Imagine que você está desenvolvendo um sistema para uma empresa de transporte rodoviário que deseja gerenciar as reservas de viagens de ônibus para diferentes destinos. O sistema deve permitir que os usuários reservem assentos em viagens específicas. O sistema deve conter, com os respectivos construtores, toString e métodos acessores:
 
-1. Classe Passageiro, obedecendo o contrato de Cliente:
+1. Classe Passageiro, obedecendo o contrato da interface Cliente:
 
    - Atributos: nome, documento e dataNascimento
 
