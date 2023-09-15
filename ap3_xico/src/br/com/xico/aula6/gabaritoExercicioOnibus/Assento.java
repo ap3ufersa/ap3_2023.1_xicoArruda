@@ -3,12 +3,10 @@ package br.com.xico.aula6.gabaritoExercicioOnibus;
 public class Assento {
 
   private int numeroAssento;
-  private TipoAssento tipo;
   private boolean disponivel;
 
-  public Assento(int numeroAssento, TipoAssento tipo) {
+  public Assento(int numeroAssento) {
     this.numeroAssento = numeroAssento;
-    this.tipo = tipo;
     this.disponivel = true;
   }
 
@@ -18,14 +16,6 @@ public class Assento {
 
   public void setNumeroAssento(int numeroAssento) {
     this.numeroAssento = numeroAssento;
-  }
-
-  public TipoAssento getTipo() {
-    return tipo;
-  }
-
-  public void setTipo(TipoAssento tipo) {
-    this.tipo = tipo;
   }
 
   public boolean isDisponivel() {
@@ -38,6 +28,6 @@ public class Assento {
 
   @Override
   public String toString() {
-    return "Assento [num=" + numeroAssento + ", tipo=" + tipo + ", disponivel=" + disponivel + "]";
+    return "Assento [num=" + numeroAssento + ", disponivel=" + disponivel + "]";
   }
 }

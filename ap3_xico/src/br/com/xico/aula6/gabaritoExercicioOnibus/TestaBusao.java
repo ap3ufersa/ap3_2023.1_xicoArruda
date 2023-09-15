@@ -1,6 +1,7 @@
 package br.com.xico.aula6.gabaritoExercicioOnibus;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class TestaBusao {
 
@@ -9,17 +10,21 @@ public class TestaBusao {
     Passageiro xico = new Passageiro("Xico", "123456789", LocalDate.of(2000, 8, 25));
 
     // Criando o assento
-    Assento assentoXico = new Assento(30, TipoAssento.JANELA);
+    Assento assentoXico = new AssentoJanela(1);
+    Assento assentoWellington = new AssentoCorredor(2);
 
     // Criando uma viagem
-    Viagem natalAngicos = new Viagem(1, "Natal", "Angicos", "2023-08-25 08:00", "2023-08-25 12:00");
+    LocalDateTime partida = LocalDateTime.of(2023, 9, 15, 10, 0); 
+    LocalDateTime chegada = LocalDateTime.of(2023, 9, 15, 14, 10);
+
+    Viagem natalAngicos = new Viagem(1, "Natal", "Angicos", partida, chegada);
 
     // Listando todos os assentos antes da reserva
     System.out.println("\nTodos os assentos antes da reserva:");
     natalAngicos.getTodosOsAssentos().forEach(System.out::println);
 
     // Realizando uma reserva
-    Reserva reserva = new Reserva(xico, natalAngicos, assentoXico);
+    Reserva reservaXico = new Reserva(xico, natalAngicos, assentoXico);
 
     // Listando todos os assentos após a reserva
     System.out.println("\nTodos os assentos depois da reserva:");

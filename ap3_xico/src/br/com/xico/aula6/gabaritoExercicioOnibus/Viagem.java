@@ -1,34 +1,33 @@
 package br.com.xico.aula6.gabaritoExercicioOnibus;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Viagem {
 
   private int numeroViagem;
-  private String origem;
-  private String destino;
-  private String dataHoraPartida;
-  private String dataHoraChegada;
+  private Local localViagem;
+  private LocalDateTime dataHoraPartida;
+  private LocalDateTime dataHoraChegada;
   private List<Assento> todosOsAssentos;
 
   public Viagem(
-      int numeroViagem,
-      String origem,
-      String destino,
-      String dataHoraPartida,
-      String dataHoraChegada) {
+    int numeroViagem,
+    String origem,
+    String destino,
+    LocalDateTime dataHoraPartida,
+    LocalDateTime dataHoraChegada
+  ) {
+    this.localViagem = new Local(origem, destino);
     this.numeroViagem = numeroViagem;
-    this.origem = origem;
-    this.destino = destino;
     this.dataHoraPartida = dataHoraPartida;
     this.dataHoraChegada = dataHoraChegada;
     this.todosOsAssentos = new ArrayList<>();
-    for (int i = 1; i <= 20; i++)
-      todosOsAssentos.add(new Assento(i, TipoAssento.JANELA));
-
-    for (int i = 1; i <= 20; i++)
-      todosOsAssentos.add(new Assento(i + 20, TipoAssento.CORREDOR));
+    for (int i = 1; i <= 20; i++) {
+      todosOsAssentos.add(new AssentoJanela(i));
+      todosOsAssentos.add(new AssentoCorredor(i));
+    }
   }
 
   public List<Assento> listarAssentosDisponiveis() {
@@ -42,15 +41,16 @@ public class Viagem {
   }
 
   public void realizarReserva(Assento assentoReservado) {
-        for (Assento umAssento : todosOsAssentos) {
-            if (umAssento.getNumeroAssento() == assentoReservado.getNumeroAssento()) {
-                if (umAssento.isDisponivel()) {
-                    umAssento.setDisponivel(false);
-                    break;
-                }
-            }
+    for (Assento umAssento : todosOsAssentos) {
+      if (umAssento.getNumeroAssento() == assentoReservado.getNumeroAssento()) {
+        if (umAssento.isDisponivel()) {
+          umAssento.setDisponivel(false);
+          break;
         }
+      }
     }
+  }
+
   public int getNumeroViagem() {
     return numeroViagem;
   }
@@ -59,35 +59,27 @@ public class Viagem {
     this.numeroViagem = numeroViagem;
   }
 
-  public String getOrigem() {
-    return origem;
+  public Local getLocalViagem() {
+    return localViagem;
   }
 
-  public void setOrigem(String origem) {
-    this.origem = origem;
+  public void setLocalViagem(Local localViagem) {
+    this.localViagem = localViagem;
   }
 
-  public String getDestino() {
-    return destino;
-  }
-
-  public void setDestino(String destino) {
-    this.destino = destino;
-  }
-
-  public String getDataHoraPartida() {
+  public LocalDateTime getDataHoraPartida() {
     return dataHoraPartida;
   }
 
-  public void setDataHoraPartida(String dataHoraPartida) {
+  public void setDataHoraPartida(LocalDateTime dataHoraPartida) {
     this.dataHoraPartida = dataHoraPartida;
   }
 
-  public String getDataHoraChegada() {
+  public LocalDateTime getDataHoraChegada() {
     return dataHoraChegada;
   }
 
-  public void setDataHoraChegada(String dataHoraChegada) {
+  public void setDataHoraChegada(LocalDateTime dataHoraChegada) {
     this.dataHoraChegada = dataHoraChegada;
   }
 
@@ -101,7 +93,18 @@ public class Viagem {
 
   @Override
   public String toString() {
-    return "Viagem [numeroViagem=" + numeroViagem + ", origem=" + origem + ", destino=" + destino + ", dataHoraPartida="
-        + dataHoraPartida + ", dataHoraChegada=" + dataHoraChegada + ", assentos=" + todosOsAssentos + "]";
+    return (
+      "Viagem [numeroViagem=" +
+      numeroViagem +
+      ", localViagem=" +
+      localViagem +
+      ", dataHoraPartida=" +
+      dataHoraPartida +
+      ", dataHoraChegada=" +
+      dataHoraChegada +
+      ", todosOsAssentos=" +
+      todosOsAssentos +
+      "]"
+    );
   }
 }
