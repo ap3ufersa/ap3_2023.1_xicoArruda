@@ -24,6 +24,10 @@ Visibilidade e Scanner com [exercícios](unidade1/exercicio3.md).
 
 Encapsulamento de comportamentos e composição com [exercícios](unidade2/exercicio1.md), com exemplo feito em sala de aula.
 
+## Exercício 2 - Herança e Polimorfismo
+
+Herança e polimorfismo com [exercícios](unidade2/exercicio2.md), com exemplo REfeito em sala de aula.
+
 ## Ajuda e material de apoio
 
 ### Java e POO
