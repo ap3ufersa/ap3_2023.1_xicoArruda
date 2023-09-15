@@ -52,8 +52,8 @@ NOVO Gabarito [aqui](https://github.com/ap3ufersa/ap3_2023.1_xicoArruda/tree/mai
 
 1. (1,0) Crie uma hierarquia de classes para representar veículos. A classe base deve ser chamada de Veiculo e ter os atributos comuns a todos os veículos, como marca, modelo, e ano. Em seguida, crie duas subclasses, Carro e Moto, que herdam de Veiculo. Cada uma dessas subclasses deve adicionar atributos específicos, como numeroPortas para carros e cilindrada para motos.
 
-Implemente um método na classe base Veiculo chamado descrever() que retorna uma descrição genérica do veículo. Em seguida, nas subclasses Carro e Moto, sobrescreva esse método para fornecer uma descrição mais específica, incluindo os atributos exclusivos desses tipos de veículos.
+- Implemente um método na classe base Veiculo chamado descrever() que retorna uma descrição genérica do veículo. Em seguida, nas subclasses Carro e Moto, sobrescreva esse método para fornecer uma descrição mais específica, incluindo os atributos exclusivos desses tipos de veículos.
 
 2. (1,0) Crie uma hierarquia de classes para representar animais. A classe base deve ser chamada de Animal e ter atributos como nome e idade. Em seguida, crie duas subclasses, Cachorro e Gato, que herdam de Animal. Cada uma dessas subclasses deve adicionar métodos e atributos específicos, como o método latir() para cachorros e o método miar() para gatos.
 
-Implemente um método na classe base Animal chamado emitirSom() que retorna uma representação do som genérico que um animal faz. Em seguida, nas subclasses Cachorro e Gato, sobrescreva esse método para retornar os sons específicos desses animais.
+- Implemente um método na classe base Animal chamado emitirSom() que retorna uma representação do som genérico que um animal faz. Em seguida, nas subclasses Cachorro e Gato, sobrescreva esse método para retornar os sons específicos desses animais.
