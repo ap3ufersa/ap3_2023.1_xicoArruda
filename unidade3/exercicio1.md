@@ -8,4 +8,4 @@ Exceptions [aqui](https://github.com/ap3ufersa/ap3_2023.1_xicoArruda/tree/main/u
 
 Threads [aqui](https://github.com/ap3ufersa/ap3_2023.1_xicoArruda/tree/main/unidade3/threads/)
 
-Exercícios [aqui][#breve]
+Exercícios [aqui](#breve)
