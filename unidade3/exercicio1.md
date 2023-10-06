@@ -1,6 +1,6 @@
 # Exercício 1
 
-## Exercício - máximo 37,5 pontos se o commit no github for até 23:59h do dia 20/10/2023
+## Exercício - máximo 307,5 pontos se o commit no github for até 23:59h do dia 20/10/2023
 
 ### Exercício em Sala: Threads e Exceptions
 
