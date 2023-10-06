@@ -13,20 +13,19 @@ public class Viagem {
   private List<Assento> todosOsAssentos;
 
   public Viagem(
-    int numeroViagem,
-    String origem,
-    String destino,
-    LocalDateTime dataHoraPartida,
-    LocalDateTime dataHoraChegada
-  ) {
+      int numeroViagem,
+      String origem,
+      String destino,
+      LocalDateTime dataHoraPartida,
+      LocalDateTime dataHoraChegada) {
     this.localViagem = new Local(origem, destino);
     this.numeroViagem = numeroViagem;
     this.dataHoraPartida = dataHoraPartida;
     this.dataHoraChegada = dataHoraChegada;
     this.todosOsAssentos = new ArrayList<>();
-    for (int i = 1; i <= 20; i++) {
+    for (int i = 1; i <= 20; i = i + 2) {
       todosOsAssentos.add(new AssentoJanela(i));
-      todosOsAssentos.add(new AssentoCorredor(i));
+      todosOsAssentos.add(new AssentoCorredor(i + 1));
     }
   }
 
@@ -93,18 +92,16 @@ public class Viagem {
 
   @Override
   public String toString() {
-    return (
-      "Viagem [numeroViagem=" +
-      numeroViagem +
-      ", localViagem=" +
-      localViagem +
-      ", dataHoraPartida=" +
-      dataHoraPartida +
-      ", dataHoraChegada=" +
-      dataHoraChegada +
-      ", todosOsAssentos=" +
-      todosOsAssentos +
-      "]"
-    );
+    return ("Viagem [numeroViagem=" +
+        numeroViagem +
+        ", localViagem=" +
+        localViagem +
+        ", dataHoraPartida=" +
+        dataHoraPartida +
+        ", dataHoraChegada=" +
+        dataHoraChegada +
+        ", todosOsAssentos=" +
+        todosOsAssentos +
+        "]");
   }
 }

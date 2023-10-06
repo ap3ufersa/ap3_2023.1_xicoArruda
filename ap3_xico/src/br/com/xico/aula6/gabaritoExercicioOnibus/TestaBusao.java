@@ -14,7 +14,7 @@ public class TestaBusao {
     Assento assentoWellington = new AssentoCorredor(2);
 
     // Criando uma viagem
-    LocalDateTime partida = LocalDateTime.of(2023, 9, 15, 10, 0); 
+    LocalDateTime partida = LocalDateTime.of(2023, 9, 15, 10, 0);
     LocalDateTime chegada = LocalDateTime.of(2023, 9, 15, 14, 10);
 
     Viagem natalAngicos = new Viagem(1, "Natal", "Angicos", partida, chegada);
@@ -25,6 +25,7 @@ public class TestaBusao {
 
     // Realizando uma reserva
     Reserva reservaXico = new Reserva(xico, natalAngicos, assentoXico);
+    Reserva reservaWellington = new Reserva(xico, natalAngicos, assentoWellington);
 
     // Listando todos os assentos após a reserva
     System.out.println("\nTodos os assentos depois da reserva:");

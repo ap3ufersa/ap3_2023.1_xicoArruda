@@ -14,10 +14,6 @@ public class Passageiro implements Cliente {
     this.dataNascimento = dataNascimento;
   }
 
-  public String getNome() {
-    return nome;
-  }
-
   public void setNome(String nome) {
     this.nome = nome;
   }
@@ -37,6 +33,11 @@ public class Passageiro implements Cliente {
   public void setDataNascimento(LocalDate dataNascimento) {
     this.dataNascimento = dataNascimento;
   }
+
+  public String getNome() {
+    return nome;
+  }
+
   @Override
   public String toString() {
     return "Passageiro [nome=" + nome + ", documento=" + documento + ", dataNascimento=" + dataNascimento + "]";
