@@ -28,6 +28,12 @@ Encapsulamento de comportamentos e composição com [exercícios](unidade2/exerc
 
 Herança e polimorfismo com [exercícios](unidade2/exercicio2.md), com exemplo REfeito em sala de aula.
 
+# Unidade 3
+
+## Exercício 1 - Exceptions e Threads
+
+Exceções e Threads com [exercícios](unidade3/exercicio1.md), com exemplos mostrados em sala de aula.
+
 ## Ajuda e material de apoio
 
 ### Java e POO
