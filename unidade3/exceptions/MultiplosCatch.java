@@ -1,5 +1,3 @@
-package com.loiane.cursojava.aula48;
-
 public class MultiplosCatch {
 
 	public static void main(String[] args) {

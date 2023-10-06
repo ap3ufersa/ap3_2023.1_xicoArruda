@@ -2,9 +2,7 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ExecutionException;
 import java.util.stream.IntStream;
 
 public class SequencialOuParalelo {
@@ -36,9 +34,9 @@ public class SequencialOuParalelo {
 
   public static void main(String[] args) {
     System.out.println("Saida Formato ISO8601");
-	int quantNumeros = 3000000;
-	System.out.println("Duracao - Sequencial="+sequencial(quantNumeros));
-	System.out.println("Duracao - Paralelo="+paralelo(quantNumeros));
-    
+
+    int quantNumeros = 3000000; // mude aqui!
+    System.out.println("Duracao - Sequencial=" + sequencial(quantNumeros));
+    System.out.println("Duracao - Paralelo=" + paralelo(quantNumeros));
   }
 }

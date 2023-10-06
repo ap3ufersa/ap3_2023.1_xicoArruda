@@ -39,13 +39,3 @@ public class Synchronized_2 {
   }
 
 }
-// 
-// picpay.me/RinaldoDev
-// apoia.se/rinaldodev
-//
-// YouTube:  RinaldoDev
-// Twitter:  @rinaldodev
-// Blog:     rinaldo.dev
-// LinkedIn: rinaldodev
-// Facebook: rinaldo.dev
-//
