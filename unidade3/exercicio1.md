@@ -4,8 +4,8 @@
 
 ### Exercício em Sala: Threads e Exceptions
 
-Exceptions [aqui](https://github.com/ap3ufersa/ap3_2023.1_xicoArruda/tree/main/unidade3/exceptions/)
+Exceptions [aqui](https://github.com/ap3ufersa/ap3_2023.1_xicoArruda/tree/main/unidade3/exceptions/).
 
-Threads [aqui](https://github.com/ap3ufersa/ap3_2023.1_xicoArruda/tree/main/unidade3/threads/)
+Threads [aqui](https://github.com/ap3ufersa/ap3_2023.1_xicoArruda/tree/main/unidade3/threads/).
 
-Exercícios [aqui](#breve)
+Exercícios [aqui](#breve).
