@@ -36,3 +36,5 @@ Threads [aqui](https://github.com/ap3ufersa/ap3_2023.1_xicoArruda/tree/main/unid
     - Crie duas instâncias de ContadorComThreads.
     - Inicie as threads (`start()`).
     - Exiba a execução das Threads.
+
+Opcional: use o pacote `java.util.concurrent` ao invés da classe `Thread`
