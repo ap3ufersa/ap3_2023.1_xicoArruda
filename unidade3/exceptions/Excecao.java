@@ -2,13 +2,13 @@ public class Excecao {
 
   public static void main(String[] args) {
     try {
-      int[] vetor = new int[4];
+      int[] vetor = { 50, 13, 27, 57 };
       System.out.println("Antes da exception");
-      vetor[4] = 1;
+      vetor[20] = 345;
       System.out.println("Esse texto não será impresso");
-    } catch (ArrayIndexOutOfBoundsException exception) {
-      System.out.println("Exceção - posição no vetor não existe.");
+    } catch (ArrayIndexOutOfBoundsException aid) {
+      System.out.println("Tentou acessar uma posicao invalida!");
+      aid.printStackTrace();
     }
-    System.out.println("Esse texto será impresso após a exception");
   }
 }
